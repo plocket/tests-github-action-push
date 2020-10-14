@@ -1,0 +1,15 @@
+Practicing practice
+<< ENDOFFILE
+
+#echo "::save-state name=processID::12345
+#sed -i -e "s/\(address=\).*/\1/" #-e "s/\(port=\).*/\1/" #-e "s/\(username=\).*/\1/" xyz.cfg
+
+#pandoc -s main.md -o output/main.html
+#pandoc main.md -o output/main_bare.html
+#pandoc -s main.md -o output/main.pdf
+#pandoc -s main.md -o output/main.epub
+#pandoc -s main.md -o output/main.odt
+#pandoc -s main.md -o output/main.docx
+#
+#cp index.html output/
+#cp README.output.md output/
